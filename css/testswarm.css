@@ -1,42 +1,49 @@
+/* Extra-wide mode for HD monitors */
+@media (min-width: 1900px) {
+    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+        width: 1870px;
+    }
+}
+
 @-o-keyframes rotate {
-	from {
-		-o-transform: rotate(0deg);
-	}
-	to {
-		-o-transform: rotate(360deg);
-	}
+        from {
+                -o-transform: rotate(0deg);
+        }
+        to {
+                -o-transform: rotate(360deg);
+        }
 }
 @-ms-keyframes rotate {
-	from {
-		-ms-transform: rotate(0deg);
-	}
-	to {
-		-ms-transform: rotate(360deg);
-	}
+        from {
+                -ms-transform: rotate(0deg);
+        }
+        to {
+                -ms-transform: rotate(360deg);
+        }
 }
 @-moz-keyframes rotate {
-	from {
-		-moz-transform: rotate(0deg);
-	}
-	to {
-		-moz-transform: rotate(360deg);
-	}
+        from {
+                -moz-transform: rotate(0deg);
+        }
+        to {
+                -moz-transform: rotate(360deg);
+        }
 }
 @-webkit-keyframes rotate {
-	from {
-		-webkit-transform: rotate(0deg);
-	}
-	to {
-		-webkit-transform: rotate(360deg);
-	}
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(360deg);
+        }
 }
 @keyframes rotate {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+        from {
+                transform: rotate(0deg);
+        }
+        to {
+                transform: rotate(360deg);
+        }
 }
 
 /* Make tables spaced out a bit more */
@@ -48,37 +55,37 @@ h2 + .row {
 }
 
 .swarm-code-nowrap {
-	white-space: nowrap;
+        white-space: nowrap;
 }
 
 .swarm-toollinks {
-	text-align: right;
+        text-align: right;
 }
 
 .swarm-browseronline {
-	position: relative;
-	text-align: center;
+        position: relative;
+        text-align: center;
 }
 
 .swarm-browseronline .swarm-onlineclients {
-	position: absolute;
-	top: 5px;
-	right: 5px;
-	line-height: normal;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        line-height: normal;
 }
 
 .swarm-browseronline .swarm-browsericon {
-	height: 48px;
-	margin: 10px 0;
+        height: 48px;
+        margin: 10px 0;
 }
 
 .swarm-browseronline .swarm-onlineclients,
 .swarm-browseronline .swarm-browsername {
-	font-size: 11px;
+        font-size: 11px;
 }
 
 .swarm-browseronline .swarm-browsername:hover {
-	cursor: default;
+        cursor: default;
 }
 
 /**
@@ -100,52 +107,52 @@ h2 + .row {
  */
 
 table.swarm-results {
-	white-space: nowrap;
+        white-space: nowrap;
 }
 
 table.swarm-results thead th,
 table.swarm-results tbody td.swarm-status {
-	text-align: center;
-	background: #fff;
+        text-align: center;
+        background: #fff;
 }
 
 table.swarm-results th img.swarm-browsericon {
-	max-height: 28px;
+        max-height: 28px;
 }
 
 table.swarm-results tbody td.swarm-status {
-	font-weight: bold;
+        font-weight: bold;
 }
 
 table.swarm-results tbody td.swarm-status-new {
-	background: #E8E8E8;
+        background: #E8E8E8;
 }
 table.swarm-results tbody td.swarm-status-new,
 table.swarm-results tbody td.swarm-status-new a {
-	color: #666);
+        color: #666);
 }
 
 table.swarm-results tbody td.swarm-status-progress {
-	background: #EFEBD7;
+        background: #EFEBD7;
 }
 
 table.swarm-results tbody td.swarm-status-progress,
 table.swarm-results tbody td.swarm-status-progress a {
-	color: #877B45;
+        color: #877B45;
 }
 
 table.swarm-results tbody td.swarm-status-passed {
-	background: #DBEFD7;
+        background: #DBEFD7;
 }
 table.swarm-results tbody td.swarm-status-passed,
 table.swarm-results tbody td.swarm-status-passed a {
-	color: #508745;
+        color: #508745;
 }
 
 table.swarm-results tbody td.swarm-status-timedout,
 table.swarm-results tbody td.swarm-status-error,
 table.swarm-results tbody td.swarm-status-failed {
-	background: #EFD7D7;
+        background: #EFD7D7;
 }
 table.swarm-results tbody td.swarm-status-timedout,
 table.swarm-results tbody td.swarm-status-timedout a,
@@ -153,46 +160,46 @@ table.swarm-results tbody td.swarm-status-error,
 table.swarm-results tbody td.swarm-status-error a,
 table.swarm-results tbody td.swarm-status-failed,
 table.swarm-results tbody td.swarm-status-failed a {
-	color: #874545);
+        color: #874545);
 }
 
 table.swarm-results tbody td.swarm-status-notscheduled {
-	background: #fff;
+        background: #fff;
 }
 
 .swarm-status-progressicon {
-	-o-animation-name: rotate;
-	-o-animation-direction: normal;
-	-o-animation-duration: 2s;
-	-o-animation-timing-function: linear;
-	-o-animation-iteration-count: infinite;
+        -o-animation-name: rotate;
+        -o-animation-direction: normal;
+        -o-animation-duration: 2s;
+        -o-animation-timing-function: linear;
+        -o-animation-iteration-count: infinite;
 
-	-ms-animation-name: rotate;
-	-ms-animation-direction: normal;
-	-ms-animation-duration: 2s;
-	-ms-animation-timing-function: linear;
-	-ms-animation-iteration-count: infinite;
+        -ms-animation-name: rotate;
+        -ms-animation-direction: normal;
+        -ms-animation-duration: 2s;
+        -ms-animation-timing-function: linear;
+        -ms-animation-iteration-count: infinite;
 
-	-moz-animation-name: rotate;
-	-moz-animation-direction: normal;
-	-moz-animation-duration: 2s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-iteration-count: infinite;
+        -moz-animation-name: rotate;
+        -moz-animation-direction: normal;
+        -moz-animation-duration: 2s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
 
-	-webkit-animation-name: rotate;
-	-webkit-animation-direction: normal;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
+        -webkit-animation-name: rotate;
+        -webkit-animation-direction: normal;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
 
-	animation-name: rotate;
-	animation-direction: normal;
-	animation-duration: 2s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+        animation-name: rotate;
+        animation-direction: normal;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
 }
 
 .swarm-page-footer {
-	text-align: center;
-	margin-bottom: 18px;
+        text-align: center;
+        margin-bottom: 18px;
 }

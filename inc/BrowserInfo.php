@@ -113,7 +113,7 @@ class BrowserInfo {
                 $browscapInstance->updateInterval = 3600; // 1 hour
 
                 $browscapData = $browscapInstance->getBrowser( $userAgent );
-                $browscapData->Platform = preg_replace("/(Win7|Win8|WinXP|WinVista)/", "Windows", $browscapData->Platform);
+                $browscapData->Platform = preg_replace("/(Win7|Win8|WinXP|WinVista|Win2003)/", "Windows", $browscapData->Platform);
 
                 $this->rawUserAgent = $userAgent;
                 $this->browscapData = $browscapData;
